@@ -18,8 +18,3 @@ resource "aws_s3_bucket" "example" {
   bucket = "tf-guide-somerandomsuffixheredjfldjafjdfdjfdlj"
   acl    = "private"
 }
-
-resource "aws_instance" "another" {
-  ami           = "ami-b374d5a5"
-  instance_type = "t2.micro"
-}
